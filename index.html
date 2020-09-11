@@ -6,29 +6,40 @@
     <title>Newsweek Magazine Bootstrap Clone</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="bg-primary">
-      <div class="container">
-        <div class="row d-flex flex-row">
-          <div class="col-6">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3 d-none d-lg-block align-items-center">
             <p>18° Córdoba, AR ></p>
             <span>Fri, Sep 11, 2020</span>
           </div>
-          <div class="col-3 inline-block">
-            <img class="main-logo" src="/img/logo.svg" alt="Newsweek Logo" />
+          <div
+            class="col-sm-3 col-lg-6 text-center d-lg-block align-items-center"
+          >
+            <img
+              class="main-logo align-items-center"
+              src="/img/logo.svg"
+              alt="Newsweek Logo"
+            />
           </div>
-          <div class="col-3">
+          <div class="col-sm-9 col-lg-3 text-right d-lg-block">
             <button class="btn">LOGIN</button>
             <button class="btn">SUBSCRIBE ></button>
           </div>
         </div>
       </div>
     </header>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

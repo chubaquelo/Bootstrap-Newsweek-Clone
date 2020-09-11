@@ -5,3 +5,14 @@
   width: 396px;
   height: 60px;
 }
+
+@media (max-width: 992px) {
+    .main-logo {
+        height: 20px;
+width: 132px;
+
+
+      }
+      
+{
+
