@@ -35,10 +35,15 @@
             </p>
             <span>Fri, Sep 11, 2020</span>
           </div>
-          <div class="col-3 col-lg-6 text-center d-lg-block">
+          <div class="col-3 col-lg-6 text-center d-lg-block d-flex align-items-center">
             <img class="main-logo" src="/img/logo.svg" alt="Newsweek Logo" />
           </div>
           <div class="top-btn-container col-9 col-lg-3 text-right d-lg-block">
+            <!-- ACCOUNT ICON THAT DISSAPEARS ON LARGE SCREENS -->
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill d-md-none" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+
             <button class="d-none d-md-inline btn text-white font-weight-bold">
               LOGIN
             </button>
@@ -49,7 +54,7 @@
               width="2em"
               height="2em"
               viewBox="0 0 16 16"
-              class="d-md-none bi bi-list"
+              class="d-lg-none bi bi-list"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -62,36 +67,36 @@
         </div>
       </div>
     </header>
-    <nav class="navbar d-none d-lg-block">
-      <ul class="list-inline py-1 m-0">
-        <li class="d-inline-block px-1 h5 border-right">
+    <nav class="navbar d-none d-lg-block align-items-center pb-0">
+      <ul class="list-inline py-1 m-0 d-flex">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-center">
           <a class="nav-a font-weight-bold" href="#">U.S.</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">World</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Business</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-nowrap">
           <a class="nav-a font-weight-bold" href="#">Tech & Science</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Culture</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Newsgeek</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Sports</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Health</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-nowrap">
           <a class="nav-a font-weight-bold" href="#">The Debate</a>
         </li>
-        <li class="d-inline-block px-1 h5 border-right">
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
           <a class="nav-a font-weight-bold" href="#">Ventage</a>
         </li>
         <li class="d-inline-block px-1 h5">
@@ -101,6 +106,17 @@
           <input class="search-bar" type="text" placeholder="Search" />
         </li>
       </ul>
+    </nav>
+
+    <nav class="col-12 d-none d-lg-block navbar-trends border-top border-bottom">
+        <ul class="col-8 d-flex m-0 p-1 mt-1">
+            <li class="d-inline-block flex-grow-1 font-weight-bold">TRENDING</li>
+            <li class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"><a class="navbar-trends-a color-grey" href="#">DONALD TRUMP</a></li>
+            <li class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"><a class="navbar-trends-a color-grey" href="#">JOE BIDEN</a></li>
+            <li class="d-inline-block flex-grow-1 font-weight-bold color-grey"><a class="navbar-trends-a color-grey" href="#">CHINA</a></li>
+            <li class="d-inline-block flex-grow-1 font-weight-bold color-grey"><a class="navbar-trends-a color-grey" href="#">CORONAVIRUS</a></li>
+            <li class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"><a class="navbar-trends-a color-grey" href="#">2020 ELECTION</a></li>
+        </ul>
     </nav>
 
     <script

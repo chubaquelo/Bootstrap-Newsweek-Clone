@@ -5,17 +5,23 @@ header {
     height: 90px;
     padding: 20px 10px 15px 10px;
 }
+
+.color-grey {
+    color: #807f84;
+}
 nav{
     font-family: "Roboto Condensed",sans-serif;
 }
-.nav-a{
+
+.nav-a {
     color: rgb(20, 20, 20);
 }
-.nav-a:hover{
+
+.nav-a:hover, .navbar-trends-a:hover{
     color: #f72210;  
     text-decoration: none;
-  
 }
+
 .btn-subscribe {
     border-radius: 20px;
     background-color: #ffe400;
@@ -29,9 +35,12 @@ nav{
     background: url(../img/search.JPG) no-repeat;
     background-position: right;
     border: none;
-    width: 80px;
-    
+    width: 80px;   
 }
+
+/* .navbar-trends {
+    border: 1px solid
+} */
 
 /* OTHER CLASSES */
 .main-logo {
@@ -44,6 +53,7 @@ nav{
 
 @media (max-width: 992px) {
 header {
+    display: flex;
     height: 60px;
     padding: 2px;
     align-items: center;
@@ -52,7 +62,9 @@ header {
 .main-logo {
   height: 20px;
   width: 132px;
-      }
+  vertical-align: middle;
+  align-self: center;
+}
 
 .top-btn-container {
     padding: 0;
