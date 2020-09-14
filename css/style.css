@@ -1,59 +1,67 @@
 /* GLOBAL CLASSES */
 
 header {
-    background-color: #f72210;
-    height: 90px;
-    padding: 20px 10px 15px 10px;
+  background-color: #f72210;
+  height: 90px;
+  padding: 20px 10px 15px 10px;
 }
 
 h2 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .color-grey {
-    color: #807f84;
+  color: #807f84;
 }
 
 .color-red {
-    color: #f72210;
+  color: #f72210;
 }
 
-nav{
-    font-family: "Roboto Condensed",sans-serif;
+nav {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .nav-a {
-    color: rgb(20, 20, 20);
+  color: rgb(20, 20, 20);
 }
 
-.nav-a:hover, .navbar-trends-a:hover{
-    color: #f72210;  
-    text-decoration: none;
+.nav-a:hover,
+.navbar-trends-a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .btn-subscribe {
-    border-radius: 20px;
-    background-color: #ffe400;
+  border-radius: 20px;
+  background-color: #ffe400;
 }
 
 .top-btn-container {
-    padding-top: 1.4rem;
+  padding-top: 1.4rem;
 }
 
-.search-bar{
-    background: url(../img/search.JPG) no-repeat;
-    background-position: right;
-    border: none;
-    width: 80px;   
+.search-bar {
+  background: url(../img/search.JPG) no-repeat;
+  background-position: right;
+  border: none;
+  width: 80px;
+}
+.my-turn-img {
+  width: 100%;
 }
 
+.my-turn-txt {
+  line-height: 1.2em;
+  font-weight: 600;
+}
 /* ARTICLES AND NEWS CLASSES */
 
 .category {
-    background-color: #e6e6e6;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  background-color: #e6e6e6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* OTHER CLASSES */
@@ -63,24 +71,22 @@ nav{
   filter: invert(100%);
 }
 
-
-
 @media (max-width: 992px) {
-header {
+  header {
     display: flex;
     height: 60px;
     padding: 2px;
     align-items: center;
-}
+  }
 
-.main-logo {
-  height: 20px;
-  width: 132px;
-  vertical-align: middle;
-  align-self: center;
-}
+  .main-logo {
+    height: 20px;
+    width: 132px;
+    vertical-align: middle;
+    align-self: center;
+  }
 
-.top-btn-container {
+  .top-btn-container {
     padding: 0;
-}
+  }
 }
