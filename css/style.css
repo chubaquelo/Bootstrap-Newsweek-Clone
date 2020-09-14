@@ -5,7 +5,17 @@ header {
     height: 90px;
     padding: 20px 10px 15px 10px;
 }
-
+nav{
+    font-family: "Roboto Condensed",sans-serif;
+}
+.nav-a{
+    color: rgb(20, 20, 20);
+}
+.nav-a:hover{
+    color: #f72210;  
+    text-decoration: none;
+  
+}
 .btn-subscribe {
     border-radius: 20px;
     background-color: #ffe400;
