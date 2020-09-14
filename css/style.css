@@ -64,6 +64,16 @@ nav {
   bottom: 0;
 }
 
+/* MORE STORIES STYLING */
+
+.more-stories-h4 {
+    font-size: 1rem;
+}
+
+.stories-summary {
+    font-size: 0.8rem;
+}
+
 /* OTHER CLASSES */
 .main-logo {
   width: 396px;
