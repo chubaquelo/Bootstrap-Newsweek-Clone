@@ -1,18 +1,43 @@
 /* GLOBAL CLASSES */
 
+header {
+    background-color: #f72210;
+    height: 90px;
+    padding: 20px 10px 15px 10px;
+}
+
+.btn-subscribe {
+    border-radius: 20px;
+    background-color: #ffe400;
+}
+
+.top-btn-container {
+    padding-top: 1.4rem;
+}
+
 /* OTHER CLASSES */
 .main-logo {
   width: 396px;
   height: 60px;
+  filter: invert(100%);
 }
 
+
+
 @media (max-width: 992px) {
-    .main-logo {
-        height: 20px;
-width: 132px;
+header {
+    height: 60px;
+    padding: 2px;
+    align-items: center;
+}
 
-
+.main-logo {
+  height: 20px;
+  width: 132px;
       }
-      
+
+.top-btn-container {
+    padding: 0;
+}
 {
 
