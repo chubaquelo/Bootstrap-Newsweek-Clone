@@ -15,6 +15,14 @@ header {
     padding-top: 1.4rem;
 }
 
+.search-bar{
+    background: url(../img/search.JPG) no-repeat;
+    background-position: right;
+    border: none;
+    width: 80px;
+    
+}
+
 /* OTHER CLASSES */
 .main-logo {
   width: 396px;
