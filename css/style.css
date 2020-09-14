@@ -68,6 +68,7 @@ nav {
 
 .more-stories-h4 {
     font-size: 1rem;
+    line-height: 1.1rem;
 }
 
 .stories-summary {
@@ -79,6 +80,24 @@ nav {
   width: 396px;
   height: 60px;
   filter: invert(100%);
+}
+
+.author-pic {
+    width: 63px;
+}
+
+.byline {
+    font-size: 0.8rem;
+}
+
+.debate-separator {
+    background: url(/img/debate-separator-bg.jpg) repeat-x;
+    background-position: center;
+}
+
+.debate-bold-borders {
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
 }
 
 @media (max-width: 992px) {
