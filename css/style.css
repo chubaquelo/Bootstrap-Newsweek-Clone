@@ -55,6 +55,10 @@ nav {
   line-height: 1.2em;
   font-weight: 600;
 }
+
+.side-subscribe {
+  width: 85%;
+}
 /* ARTICLES AND NEWS CLASSES */
 
 .category {
@@ -67,12 +71,12 @@ nav {
 /* MORE STORIES STYLING */
 
 .more-stories-h4 {
-    font-size: 1rem;
-    line-height: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.1rem;
 }
 
 .stories-summary {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 /* OTHER CLASSES */
@@ -83,21 +87,21 @@ nav {
 }
 
 .author-pic {
-    width: 63px;
+  width: 63px;
 }
 
 .byline {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .debate-separator {
-    background: url(/img/debate-separator-bg.jpg) repeat-x;
-    background-position: center;
+  background: url(/img/debate-separator-bg.jpg) repeat-x;
+  background-position: center;
 }
 
 .debate-bold-borders {
-    border-top: 3px solid #ccc;
-    border-bottom: 3px solid #ccc;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
 }
 
 @media (max-width: 992px) {
