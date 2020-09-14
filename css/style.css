@@ -6,9 +6,18 @@ header {
     padding: 20px 10px 15px 10px;
 }
 
+h2 {
+    font-size: 1.4rem;
+}
+
 .color-grey {
     color: #807f84;
 }
+
+.color-red {
+    color: #f72210;
+}
+
 nav{
     font-family: "Roboto Condensed",sans-serif;
 }
@@ -38,9 +47,14 @@ nav{
     width: 80px;   
 }
 
-/* .navbar-trends {
-    border: 1px solid
-} */
+/* ARTICLES AND NEWS CLASSES */
+
+.category {
+    background-color: #e6e6e6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
 /* OTHER CLASSES */
 .main-logo {
