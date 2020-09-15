@@ -70,6 +70,11 @@ nav {
   z-index: 10;
   align-self: flex-end;
 }
+
+.icon-middle {
+  width: 29px;
+  height: 28px;
+}
 /* ARTICLES AND NEWS CLASSES */
 
 .category {
@@ -115,6 +120,14 @@ nav {
   border-bottom: 3px solid #ccc;
 }
 
+.all-features {
+  background-color: #faf0f0;
+}
+
+.all-features:hover {
+  background-color: #dbdcdd;
+  cursor: pointer;
+}
 @media (max-width: 992px) {
   header {
     display: flex;
