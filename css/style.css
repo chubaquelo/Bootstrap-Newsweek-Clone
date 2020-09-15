@@ -91,9 +91,14 @@ nav {
 }
 /* MORE STORIES STYLING */
 
-.more-stories-h4 {
+.more-stories-h5 {
   font-size: 1rem;
   line-height: 1.1rem;
+}
+
+.more-stories-h5 {
+  font-size: 0.95rem;
+  line-height: 1rem;
 }
 
 .stories-summary {
@@ -133,6 +138,15 @@ nav {
   background-color: #dbdcdd;
   cursor: pointer;
 }
+
+.bottom-articles-lg-img {
+  width: 100%;
+}
+
+.bottom-articles-sm-img {
+  width: 95px;
+}
+
 @media (max-width: 992px) {
   header {
     display: flex;
