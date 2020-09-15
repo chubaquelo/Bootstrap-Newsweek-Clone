@@ -18,6 +18,9 @@ h2 {
   color: #f72210;
 }
 
+.bg-red {
+  background-color: #f72210;
+}
 nav {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -57,7 +60,15 @@ nav {
 }
 
 .side-subscribe {
-  width: 85%;
+  width: 90%;
+  background: #f4f5f6;
+}
+
+.sticky {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  align-self: flex-end;
 }
 /* ARTICLES AND NEWS CLASSES */
 
