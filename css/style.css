@@ -83,7 +83,12 @@ nav {
   left: 0;
   bottom: 0;
 }
-
+.category-bg-red {
+  background-color: #f72210;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 /* MORE STORIES STYLING */
 
 .more-stories-h4 {
