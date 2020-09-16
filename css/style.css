@@ -145,6 +145,26 @@ nav {
   width: 95px;
 }
 
+.image-last {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-logo {
+  fill: red !important;
+  width: 236px;
+  height: 36px;
+}
+.copywrite {
+  color: #666;
+  font-size: 12px;
+}
+
+.footer-links {
+  color: #666;
+  font-size: 14px;
+}
 /* Classes for Bottom Newsletter and Subscribe */
 
 /* .magazine-img-1 {
