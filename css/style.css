@@ -161,21 +161,46 @@ nav {
   font-size: 12px;
 }
 
+/* FOOTER STYLE */
+
 .footer-links {
-  color: #666;
+  color: #dbdbdb;
   font-size: 14px;
-}
-/* Classes for Bottom Newsletter and Subscribe */
-
-/* .magazine-img-1 {
-  left: 0;
-  top: 0;
+  line-height: 2em;
 }
 
-.magazine-img-2 {
-  left: 75px;
-  top: 25px;
-} */
+.footer-nav-a {
+  color: #7f7f7f;
+  font-size: 1em;
+}
+
+.footer-nav-a:hover {
+  color: #000;
+}
+
+.icon-facebook, 
+.icon-twitter, 
+.icon-instagram, 
+.icon-linkedin {
+  fill: #666;
+  cursor: pointer;
+}
+
+.icon-facebook:hover {
+  fill: #3b5998;
+}
+
+.icon-twitter:hover {
+  fill: #1da1f2;
+}
+
+.icon-instagram:hover {
+  fill: #405de6;
+}
+
+.icon-linkedin:hover {
+  fill: #0077b5;
+}
 
 @media (max-width: 992px) {
   header {
