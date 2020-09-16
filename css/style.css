@@ -49,6 +49,10 @@ nav {
   padding-top: 1.4rem;
 }
 
+.magazine-pic-mobile {
+  margin-left: 18%;
+}
+
 .search-bar {
   background: url(../img/search.JPG) no-repeat;
   background-position: right;
