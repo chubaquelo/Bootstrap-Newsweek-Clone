@@ -62,6 +62,7 @@ nav {
   border: none;
   width: 80px;
 }
+
 .my-turn-img {
   width: 100%;
 }
@@ -80,6 +81,7 @@ nav {
   width: 29px;
   height: 28px;
 }
+
 /* ARTICLES AND NEWS CLASSES */
 
 .category {
@@ -88,12 +90,14 @@ nav {
   left: 0;
   bottom: 0;
 }
+
 .category-bg-red {
   background-color: #f72210;
   position: absolute;
   left: 0;
   bottom: 0;
 }
+
 /* MORE STORIES STYLING */
 
 .more-stories-h5 {
@@ -163,6 +167,7 @@ nav {
   width: 236px;
   height: 36px;
 }
+
 .copywrite {
   color: #666;
   font-size: 12px;
