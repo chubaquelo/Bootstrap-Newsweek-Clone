@@ -26,9 +26,9 @@ BOOTSTRAP - HTML + CSS
 
 👤 **Asad**
 
-- Github: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- Linkedin: [](https://www.linkedin.com/in/)
+- Github: [@abmasadullah](https://github.com/abmasadullah)
+- Twitter: [@abmasadullah](https://twitter.com/abmasadullah)
+- Linkedin: [@abmasadullah](https://www.linkedin.com/in/abmasadullah)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
