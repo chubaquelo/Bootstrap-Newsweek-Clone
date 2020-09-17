@@ -208,9 +208,7 @@ nav {
 .icon-linkedin:hover {
   fill: #0077b5;
 }
-.sticky {
-  position: static;
-}
+
 @media (max-width: 992px) {
   header {
     display: flex;
