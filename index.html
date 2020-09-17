@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsweek Magazine Bootstrap Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="text-white">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly">
+          <div class="d-none d-lg-block col-lg-3 align-items-center">
+            <p class="font-weight-bold m-0">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-cloud-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"
+                />
+              </svg>
+              18° Córdoba, AR >
+            </p>
+            <span>Fri, Sep 11, 2020</span>
+          </div>
+          <div
+            class="col-3 col-lg-6 text-center d-lg-block d-flex align-items-center"
+          >
+            <img class="main-logo" src="./img/logo.svg" alt="Newsweek Logo" />
+          </div>
+          <div class="top-btn-container col-9 col-lg-3 text-right d-lg-block">
+            <!-- ACCOUNT ICON THAT DISSAPEARS ON LARGE SCREENS -->
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="bi bi-person-fill d-md-none"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              />
+            </svg>
+
+            <button class="d-none d-md-inline btn text-white font-weight-bold">
+              LOGIN
+            </button>
+            <button class="btn btn-subscribe font-weight-bold">
+              SUBSCRIBE >
+            </button>
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="d-lg-none bi bi-list"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar d-none d-lg-block align-items-center pb-0">
+      <ul class="list-inline py-1 m-0 d-flex">
+        <li
+          class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-center"
+        >
+          <a class="nav-a font-weight-bold" href="#">U.S.</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">World</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Business</a>
+        </li>
+        <li
+          class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-nowrap"
+        >
+          <a class="nav-a font-weight-bold" href="#">Tech & Science</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Culture</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Newsgeek</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Sports</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Health</a>
+        </li>
+        <li
+          class="d-inline-block px-1 h5 border-right flex-grow-1 text-center text-nowrap"
+        >
+          <a class="nav-a font-weight-bold" href="#">The Debate</a>
+        </li>
+        <li class="d-inline-block px-1 h5 border-right flex-grow-1 text-center">
+          <a class="nav-a font-weight-bold" href="#">Ventage</a>
+        </li>
+        <li class="d-inline-block px-1 h5">
+          <a class="nav-a font-weight-bold" href="#">Weather</a>
+        </li>
+        <li class="d-inline-block">
+          <input class="search-bar" type="text" placeholder="Search" />
+        </li>
+      </ul>
+    </nav>
+
+    <nav
+      class="col-12 d-none d-lg-block navbar-trends border-top border-bottom"
+    >
+      <ul class="col-8 d-flex m-0 p-1 mt-1">
+        <li class="d-inline-block flex-grow-1 font-weight-bold">TRENDING</li>
+        <li
+          class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"
+        >
+          <a class="navbar-trends-a color-grey" href="#">DONALD TRUMP</a>
+        </li>
+        <li
+          class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"
+        >
+          <a class="navbar-trends-a color-grey" href="#">JOE BIDEN</a>
+        </li>
+        <li class="d-inline-block flex-grow-1 font-weight-bold color-grey">
+          <a class="navbar-trends-a color-grey" href="#">CHINA</a>
+        </li>
+        <li class="d-inline-block flex-grow-1 font-weight-bold color-grey">
+          <a class="navbar-trends-a color-grey" href="#">CORONAVIRUS</a>
+        </li>
+        <li
+          class="d-inline-block flex-grow-1 font-weight-bold color-grey text-nowrap"
+        >
+          <a class="navbar-trends-a color-grey" href="#">2020 ELECTION</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- START OF MAIN SECTION -->
+
+    <main class="container-fuid mx-4">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-7 col-lg-5 order-md-2 sticky">
+          <!-- TOP STORY -->
+          <div class="block-title color-grey font-weight-bold pt-3 pb-2">
+            TOP STORY
+          </div>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">NEWS</div>
+              <img
+                class="w-100"
+                src="./img/main-article.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              Kamala Harris, Trump Head to California to Assess Wildfires
+            </h2>
+            <div class="summary pb-3">
+              President Donald Trump and Senator Kamala Harris will head to
+              California on Monday amid ongoing wildfires in the state.
+            </div>
+          </article>
+
+          <!-- END OF TOP STORY -->
+
+          <!-- START MY TURN / CULTURE & TRAVEL SECTION -->
+
+          <div class="container-fluid d-none d-md-block">
+            <div class="block-title color-grey font-weight-bold pt-3 pb-2 row">
+              MY TURN
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/MyTurn/marriage-divorce-relationships-therapy.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  'I'm a Marriage Therapist, Here Are 3 Ways Marriage Has
+                  Changed'
+                </p>
+              </div>
+
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/MyTurn/baking-cakes-patisserie-food.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  'I Am an 11-year-old Who Has Made Thousands of Dollars From
+                  Baking Cakes'
+                </p>
+              </div>
+
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/MyTurn/sailing-sea-family-family-life.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  'We're Raising Our Kids at Sea During Covid-19'
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-none d-md-block my-turn">
+            <div class="block-title color-grey font-weight-bold pt-3 pb-2 row">
+              CULTURE & TRAVEL
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/CultureTravel/CultureTravel.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  The Last Two Northern White Rhinos—and The Armed Guard Who
+                  Protects Them
+                </p>
+              </div>
+
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/CultureTravel/met.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  Planning a Trip to One of NYC's Recently Opened Museums? What
+                  to Know
+                </p>
+              </div>
+
+              <div class="col-12 col-md-4 m-0 p-0 pr-4">
+                <img
+                  class="my-turn-img"
+                  src="./img/CultureTravel/kellee-edwards-vultee-bt-13-aircraft.webp"
+                  alt="Marriage"
+                />
+                <p class="my-turn-txt color-grey">
+                  First Black Woman to Host Travel TV Show Flies in the Face of
+                  Convention
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-none d-md-block">
+            <div
+              class="d-none d-md-block block-title color-grey font-weight-bold pt-3 pb-2 row"
+            >
+              MORE STORIES
+            </div>
+            <div class="row">
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/larry-ellison.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Oracle's Larry Ellison Is One of America's Richest Men and
+                  Trump Supporter
+                </h4>
+                <div class="stories-summary">
+                  Software giant Oracle has emerged as a frontrunner in the
+                  takeover bid of TikTok after Microsoft confirmed that the
+                  app's parent company ByteDance rejected its offer for control
+                  over its U.S. operations.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/trump.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Trump, Leading on the Economy, Accuses Biden of Copying His
+                  Plan
+                </h4>
+                <div class="stories-summary">
+                  The president continues to lead his Democratic rival on the
+                  economy in polling, despite trailing significantly on other
+                  points.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/milky-way.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Astronomers Are About to Make a Major Mystery Announcement
+                </h4>
+                <div class="stories-summary">
+                  "Too much excitement!" wrote one Twitter user in reference to
+                  the upcoming announcement.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/donald-trump-holds-rally-nevada.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Trump Repeats 'Patriotic Education' Pledge After 1619 Project
+                  Threat
+                </h4>
+                <div class="stories-summary">
+                  The president told a rally crowd that he would bring an end to
+                  the "radical indoctrination" of students in his second term.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/wildfire-smoke-california.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  West Coast Wildfires Visible From Space As Smoke Spreads Over
+                  4,000 Miles
+                </h4>
+                <div class="stories-summary">
+                  Wildfire smoke from the west coast has reached as far east as
+                  the Great Lakes region.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/kim-jong-un-donald-trump-meet.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Trump Told Woodward 'You Don't Know' How Close U.S. Was to War
+                  with Korea
+                </h4>
+                <div class="stories-summary">
+                  The veteran journalist said the president had "repeatedly"
+                  told him that he had no idea how close the U.S. and North
+                  Korea were to conflict.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/prince-philip-prince-andrew-epsom-derby.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Prince Andrew to Miss Father's Birthday as 'His Name is
+                  Poison': Author
+                </h4>
+                <div class="stories-summary">
+                  The Duke of York will be sidelined from father Prince Philip's
+                  birthday because "the survival of the monarchy requires that
+                  Buckingham Palace backs away from his son," his biographer
+                  says.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/donald-trump-holds-rally-nevada.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Trump's Nevada Rally Crowd Chants 'All Lives Matter' at BLM
+                  Protesters
+                </h4>
+                <div class="stories-summary">
+                  The president's supported booed and shouted "USA" as
+                  protesters unfurled a "Black Lives Matter" flag on Sunday
+                  night.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/anders-tegnell-sweden-coronavirus-getty.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Herd Immunity 'Definitely Not' Sweden's Goal for Coronavirus
+                </h4>
+                <div class="stories-summary">
+                  Tegnell also said "of course something went wrong" with
+                  Sweden's approach, as over 5,800 people died of COVID-19.
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/ghislaine-maxwell-childrens-benefit-new-york.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Ghislaine Maxwell Should Name Names on Epstein, Virginia
+                  Giuffre Says
+                </h4>
+                <div class="stories-summary">
+                  Ghislaine Maxwell has been urged to name names on Jeffrey
+                  Epstein as accuser Virginia Giuffre says: "I go to bed at
+                  night thanking God you are sleeping in a cage."
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/elon-musk.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Elon Musk Teases Tesla Battery Day While Saying Bill Gates Has
+                  'No Clue'
+                </h4>
+                <div class="stories-summary">
+                  The billionaire electric car company CEO has previously said
+                  the battery event could be "one of the most exciting days in
+                  Tesla's history." So what is likely to be revealed?
+                </div>
+              </div>
+              <div class="single-storie py-1 col-12 m-0 p-0 py-3 border-top">
+                <img
+                  class="float-left mr-2"
+                  src="./img/MoreStories/donald-trump-supporter-holding-qanon-flag.webp"
+                  alt="Single Storie IMG"
+                />
+                <h4 class="more-stories-h4">
+                  Connecticut Republican with QAnon Car Sticker Defends
+                  Movement's Values
+                </h4>
+                <div class="stories-summary">
+                  A Republican state senator has said he doesn't believe in the
+                  QAnon conspiracy theory despite having the movement's slogan
+                  on his car.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FEATURED STORIES BEGINS HERE (5 ARTICLES) -->
+
+        <div class="col-12 col-md-5 col-lg-3 order-md-1 p-0 sticky">
+          <div class="block-title color-grey font-weight-bold pt-3 pb-2">
+            FEATURED STORIES
+          </div>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">
+                POLITICS
+              </div>
+              <img
+                class="w-100"
+                src="./img/featured-stories-1.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              Trump Blames Stimulus Delay on Dems but Failure May Hurt Him at
+              Election
+            </h2>
+            <div class="summary pb-3">
+              The president has suggested Democrats do not want a deal as it
+              could boost his chances of a second term in the White House.
+            </div>
+          </article>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">U.S.</div>
+              <img
+                class="w-100"
+                src="./img/featured-stories-2.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              Lancaster Police Use Chemical Agents to Disperse Protesters After
+              Shooting
+            </h2>
+            <div class="summary pb-3">
+              Ricardo Munoz, 27, was seen on body camera footage wielding a
+              knife when he was shot by the officer in Lancaster, authorities
+              said.
+            </div>
+          </article>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">U.S.</div>
+              <img
+                class="w-100"
+                src="./img/featured-stories-3.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              L.A. Police Shooter Falsely Identified in Social Media Posts,
+              Sheriffs Warn
+            </h2>
+            <div class="summary pb-3">
+              A manhunt remains underway for the person who shot two Los Angeles
+              County deputies as they sat in a parked patrol car in Compton,
+              California on Saturday.
+            </div>
+          </article>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">NEWS</div>
+              <img
+                class="w-100"
+                src="./img/featured-stories-4.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              Trump's Order to Lower Drug Prices Is 'Unworkable,' Industry Says
+            </h2>
+            <div class="summary pb-3">
+              The pharmaceutical industry has criticized President Donald
+              Trump's new executive order aimed at lowering drug prices.
+            </div>
+          </article>
+          <article>
+            <div class="article-img position-relative">
+              <div class="category color-red font-weight-bold p-2">HEALTH</div>
+              <img
+                class="w-100"
+                src="./img/featured-stories-5.webp"
+                alt="Article Main Image"
+              />
+            </div>
+            <h2 class="font-weight-bold pt-2">
+              Inhaled COVID Vaccine That Delivers Drug Directly to Airways to Be
+              Trialled
+            </h2>
+            <div class="summary pb-3">
+              Scientists will test the Oxford vaccine and another being
+              developed by scientists at Imperial College London.
+            </div>
+          </article>
+        </div>
+
+        <!-- END OF FEATURED STORIES (5 ARTICLES) -->
+
+        <!-- START OF THE DEBATE AND OPINION SECTION -->
+
+        <div class="col-12 col-lg-4 order-md-3">
+          <div class="block-title color-grey font-weight-bold pt-3 pb-2 row">
+            THE DEBATE
+          </div>
+          <div class="debate-bold-borders row py-3">
+            <!-- FIRST AUTHOR DEBATE -->
+            <div class="col-3">
+              <img
+                class="author-pic p-0 mt-1"
+                src="./img/Authors/john-r-lott-jr.webp"
+                alt="Author Pic"
+              />
+            </div>
+            <div class="col-9">
+              <div class="more-stories-h4 font-weight-bold px-0">
+                Americans' Very Right to Keep and Bear Arms Is on the Ballot
+                This Election
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>JOHN R. LOTT, JR.</b></span>
+              </div>
+            </div>
+            <!-- VS SEPARATOR -->
+            <div
+              class="debate-separator col-12 justify-content-center d-flex my-2"
+            >
+              <span
+                class="text-center font-weight-bold bg-dark rounded-circle text-white px-2 py-1"
+                >VS</span
+              >
+            </div>
+            <!-- SECOND AUTHOR DEBATE -->
+            <div class="col-9">
+              <div class="more-stories-h4 font-weight-bold px-0">
+                Individual Gun Ownership Is Not at Stake in This Election
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>JOHN E. RESENTHAL</b></span>
+              </div>
+            </div>
+            <div class="col-3">
+              <img
+                class="author-pic mb-1 p-0"
+                src="./img/Authors/john-rosenthal.webp"
+                alt="Author Pic"
+              />
+            </div>
+          </div>
+          <!-- OPINION START -->
+          <div class="block-title color-grey font-weight-bold pt-4 pb-2 row">
+            OPINION
+          </div>
+          <div class="opinions-list">
+            <div class="single-opinion pb-2 border-bottom">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/abdul-el-sayed.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                The COVID-19 Vaccine Can Be a Shot in the Arm for Americans—or
+                Trump
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>ABDUL, EL-SAYED</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 border-bottom mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/miami-knight.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                After Losing My Son to Gun Suicide, I Turned My Grief Into
+                Action
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>MIAMI KNIGHT</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 border-bottom mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/hank-gilman.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                How AG Bill Barr Might Punish Google
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>HANK GILMAN</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 border-bottom mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/joan-cook-anne-p-deprince.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                Barr's Move to Defend Trump Against Carroll Is a Betrayal of All
+                Survivors
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>JOAN COOK AND ANNE P. DEPRINCE</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 border-bottom mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/gordon-chang.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                The Chinese Army Flops in India. What Will Xi Do Next?
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>GORDON G. CHANG</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 border-bottom mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/michael-anton.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                Secession, From Either Left or Right
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>MICHAEL ANTON</b></span>
+              </div>
+            </div>
+            <div class="single-opinion pb-2 mt-3">
+              <img
+                class="author-pic p-0 mr-3 float-left align-self-center"
+                src="./img/Authors/lauri-b-regan-asaf-romirowsky.webp"
+                alt="Author Pic"
+              />
+              <div class="more-stories-h4 font-weight-bold px-0">
+                College Administrators Must Address Anti-Semitism on Their
+                Campuses
+              </div>
+              <div class="byline my-1 text-nowrap">
+                BY <span><b>LAURI B. REGAN AND ASAF R.</b></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-12 mx-auto mt-4 p-0">
+            <article>
+              <div class="article-img position-relative">
+                <div class="category text-primary font-weight-bold p-2">
+                  SPONSORED INSIGHT
+                </div>
+                <img
+                  class="w-100"
+                  src="./img/SideBar/florida-polytechnic-university.jpg"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">
+                  What Could a Career in Engineering or Computer Science Do For
+                  You?
+                </h2>
+                <div class="summary pb-1">
+                  Could this be the perfect time for you to pursue a career in
+                  engineering or computer science? Find out how to get started.
+                </div>
+              </div>
+            </article>
+            <div class="side-subscribe mx-auto p-3 border my-4">
+              <div class="d-flex align-items-center justify-content-center">
+                <img
+                  class="float-left"
+                  src="./img/SideBar/favicon-32x32.png"
+                  alt="Image"
+                />
+                <h6 class="font-weight-bold p-0 m-0 pl-2">
+                  START YOUR DAY WITH OUR TOP 5 ARTICLES
+                </h6>
+              </div>
+              <input
+                class="w-100 border my-2 px-2 mt-3 mb-2"
+                type="text"
+                placeholder="Email address"
+              />
+              <button
+                type="button"
+                class="btn bg-red btn-block text-white font-weight-bold text-center mb-2"
+              >
+                FREE SIGN UP >
+              </button>
+            </div>
+            <article class="my-4">
+              <div class="article-img position-relative">
+                <div class="category text-primary font-weight-bold p-2">
+                  SPONSORED INSIGHT
+                </div>
+                <img
+                  class="w-100"
+                  src="./img/SideBar/kings-college-london.png"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">
+                  What Could a Career in Engineering or Computer Science Do For
+                  You?
+                </h2>
+                <div class="summary pb-1">
+                  Could this be the perfect time for you to pursue a career in
+                  engineering or computer science? Find out how to get started.
+                </div>
+              </div>
+            </article>
+            <article class="my-4">
+              <div class="article-img position-relative">
+                <div class="category text-primary font-weight-bold p-2">
+                  SPONSORED INSIGHT
+                </div>
+                <img
+                  class="w-100"
+                  src="./img/SideBar/sweet-james-accident-attorneys-v2.jpg"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">
+                  What Makes the Best Lawyers Stand Out?
+                </h2>
+                <div class="summary pb-1">
+                  The unthinkable has happened and you need a good lawyer to
+                  turn to, how do you chose?
+                </div>
+              </div>
+            </article>
+            <article class="my-4">
+              <div class="article-img position-relative">
+                <div class="category text-primary font-weight-bold p-2">
+                  RANKINGS
+                </div>
+                <img
+                  class="w-100"
+                  src="./img/SideBar/americas-best-addiction-treatment-centers-2020.png"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">
+                  America's Best Addiction Treatment Centers 2020
+                </h2>
+                <div class="summary pb-1">
+                  Newsweek partnered with global market research firm Statista
+                  Inc. to rank the best U.S. treatment facilities that focus on
+                  addiction.
+                </div>
+              </div>
+            </article>
+            <article class="my-4">
+              <div class="article-img position-relative">
+                <div class="category text-primary font-weight-bold p-2">
+                  RANKINGS
+                </div>
+                <img
+                  class="w-100"
+                  src="./img/SideBar/infection-prevention-products-banner.jpg"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">
+                  Best Infection Prevention Products
+                </h2>
+                <div class="summary pb-1">
+                  During the coronavirus outbreak, health care is more important
+                  than ever. In Newsweek's first Best Health Care series, we
+                  highlight the best infection prevention products.
+                </div>
+              </div>
+            </article>
+            <article class="my-4">
+              <div class="article-img position-relative">
+                <img
+                  class="w-100"
+                  src="./img/SideBar/best-nursing-homes-2020.png"
+                  alt="Article Main Image"
+                />
+              </div>
+              <div class="border p-3">
+                <h2 class="font-weight-bold pt-2">Best Nursing Homes 2021</h2>
+                <div class="summary pb-1">
+                  Newsweek is partnering with the respected global data research
+                  firm Statista Inc. to establish a ranking of Best Nursing
+                  Homes 2021. If you work in this field, please participate in
+                  our survey.
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- END OF THE DEBATE AND OPINION SECTION -->
+      </div>
+
+      <!-- MY TURN SECTION - FOR MOBILE LAYOUT -->
+
+      <!-- <div class="container-fluid">
+        <div class="block-title color-grey font-weight-bold pt-3 pb-2 row">
+          MY TURN
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/MyTurn/marriage-divorce-relationships-therapy.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              'I'm a Marriage Therapist, Here Are 3 Ways Marriage Has Changed'
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/MyTurn/baking-cakes-patisserie-food.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              'I Am an 11-year-old Who Has Made Thousands of Dollars From Baking
+              Cakes'
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/MyTurn/sailing-sea-family-family-life.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              'We're Raising Our Kids at Sea During Covid-19'
+            </p>
+          </div>
+        </div>
+      </div> -->
+      <div class="container-fluid d-md-none">
+        <div class="block-title color-grey font-weight-bold pt-3 pb-2 row">
+          CULTURE & TRAVEL
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/CultureTravel/CultureTravel.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              The Last Two Northern White Rhinos—and The Armed Guard Who
+              Protects Them
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/CultureTravel/met.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              Planning a Trip to One of NYC's Recently Opened Museums? What to
+              Know
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 m-0 p-0 pr-4">
+            <img
+              class="my-turn-img"
+              src="./img/CultureTravel/kellee-edwards-vultee-bt-13-aircraft.webp"
+              alt="Marriage"
+            />
+            <p class="my-turn-txt color-grey">
+              First Black Woman to Host Travel TV Show Flies in the Face of
+              Convention
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- END OF MY TURN SECTION - FOR MOBILE LAYOUT -->
+    </main>
+    <!-- START OF MAGAZINE ARTICLES GRIDS -->
+    <section class="container-fluid px-4 px-md-5 py-2">
+      <div class="row mt-3">
+        <div
+          class="d-flex justify-content-center align-items-center border-bottom pb-2 mb-3 col-12"
+        >
+          <img
+            class="icon-middle"
+            src="./img/SideBar/favicon-32x32.png"
+            alt="Image"
+          />
+          <h5 class="d-inline-block pl-2 m-0 font-weight-bold">
+            IN THE MAGAZINE
+          </h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <article class="col-12 col-md-3 order-lg-1 p-0 pr-3">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">
+              SEPTEMBER 18 ISSUE
+            </div>
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/cover-september-11-18-2020.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div class="all-features">
+            <h5 class="font-weight-bold pt-2 text-center">
+              SEE ALL FEATURES >
+            </h5>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 p-0 p-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-01.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            COVER
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">BUSINESS</div>
+          <h2 class="font-weight-bold pt-2">
+            How the Pandemic Will Change the Way We Manage Money Forever
+          </h2>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 p-0 p-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-02.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            COVER
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">BUSINESS</div>
+          <h2 class="font-weight-bold pt-2">
+            Five Money Moves to Make Right Now to Overcome Your Biggest
+            Financial Worries
+          </h2>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 p-0 pl-3 py-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-03.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            PERISCOPE
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">POLITICS</div>
+          <h2 class="font-weight-bold pt-2">
+            Obama Fear of Retaliation Limited Response to Russian Meddling, Book
+            Reveal
+          </h2>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 p-0 py-3 pr-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-04.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            PERISCOPE
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">CULTURE</div>
+          <h2 class="font-weight-bold pt-2">CIA Directors are Not 'Yes-Men'</h2>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 p-0 p-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-05.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            DOWNTIME
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">CULTURE</div>
+          <h2 class="font-weight-bold pt-2">
+            25 Must-Read Fall Fiction and Nonfiction Books to Escape the Chaos
+            of 2020
+          </h2>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 p-0 p-3">
+          <div class="article-img">
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-06.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <div
+            class="d-inline-block font-weight-bold text-white bg-red mt-2 px-1"
+          >
+            DOWNTIME
+          </div>
+          <div class="d-inline-block color-red font-weight-bold">CULTURE</div>
+          <h2 class="font-weight-bold pt-2">
+            Sunny Hostin Is Sharing Her View in a New Memoir 'I Am These Truths'
+          </h2>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 p-0 pl-3 py-3">
+          <div class="article-img position-relative">
+            <div class="category-bg-red text-white font-weight-bold p-2">
+              IN FOCUS
+            </div>
+            <img
+              class="w-100"
+              src="./img/InTheMagazine/in-07.jpg"
+              alt="Article Main Image"
+            />
+          </div>
+          <div class="border p-3">
+            <h2 class="font-weight-bold pt-2">HANDS UP, DON’T SHOOT</h2>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 py-2">
+      <div class="row">
+        <div
+          class="d-flex justify-content-center align-items-center border-bottom pb-2 mb-3 col-12"
+        >
+          <img
+            class="icon-middle"
+            src="./img/SideBar/favicon-32x32.png"
+            alt=""
+          />
+          <h5 class="d-inline-block pl-2 m-0 font-weight-bold">
+            EDITOR'S PICK
+          </h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <article class="col-12 col-md-3 order-lg-1 p-0 pr-3 py-2">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">
+              TECH & SCIENCE
+            </div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-01.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            Sign of Alien Life May Have Been Found in the Clouds of Venus
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            Researchers who have observed the planet using the James Clerk
+            Maxwell Telescope (JCMT) in Hawaii, believe there is evidence to
+            suggest alien life may exist on Venus.
+          </div>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 py-2 px-3">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">NEWS</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-02.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            When Will There Be a COVID-19 Vaccine and Should You Trust That It's
+            Safe?
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            Americans want a COVID-19 vaccine—but worry that it could be rushed
+            out before the election. Here's what the science says.
+          </div>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 py-2 px-3">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">POLITICS</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-03.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            Trump Blames Stimulus Delay on Dems but Failure May Hurt Him at
+            Election
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            The president has suggested Democrats do not want a deal as it could
+            boost his chances of a second term in the White House.
+          </div>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 pl-3 py-2">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">SPORTS</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-04.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            Every NFL Team to Protest During the National Anthem in Week 1
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            The Green Bay Packers, Jacksonville Jaguars, Buffalo Bills and New
+            York Jets all stayed in the locker rooms during the national anthem
+            on Sunday.
+          </div>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 p-0 pr-3 py-2">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">U.S.</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-05.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            Who Is Felicitas Mendez? Google Doodle Celebrates Civil Rights
+            Pioneer
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            Felicitas Mendez is remembered for successfully suing a school
+            district that refused to enroll her children based on their
+            ethnicity, paving the way for the integration of Californian public
+            schools.
+          </div>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 py-2 px-3">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">U.S.</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-06.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            How to Protect Yourself from Wildfire Smoke During West Coast Fires
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            The impacts of wildfire smoke are worsened by the coronavirus
+            pandemic, so it is important to protect yourself and your family
+            from the smoke's harmful pollutants.
+          </div>
+        </article>
+
+        <article class="col-12 col-md-3 order-lg-1 py-2 px-3">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">U.S.</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-07.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            AOC Says U.S. 'Must Atone' for Rights Violations After New ICE Abuse
+            Claims
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            Rep. Alexandria Ocasio-Cortez said the U.S. "has engaged in a
+            program of mass human rights violations targeting immigrants."
+          </div>
+        </article>
+        <article class="col-12 col-md-3 order-lg-1 pl-3 py-2">
+          <div class="article-img position-relative">
+            <div class="category color-red font-weight-bold p-2">HEALTH</div>
+            <img
+              class="w-100"
+              src="./img/EditorsPic/ed-08.webp"
+              alt="Article Main Image"
+            />
+          </div>
+          <h2 class="font-weight-bold pt-2">
+            Certain Brain Cells Change Our Experience of Time, Scientists
+            Believe
+          </h2>
+          <div class="summary d-md-none d-lg-block pb-3">
+            Scientists showed over a dozen people grey blobs while they were in
+            a scanner.
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- HERE BEGINS THE BOTTOM ARTICLES SECTIONS (SECTIONS X 6) -->
+    <section class="container-fluid px-3 px-md-5 p-2">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">WORLD</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomWorld/momcilo-krajisnik-bosnia-herzegovina-2013.webp"
+            class="bottom-articles-lg-img"
+            alt="Momcilo"
+          />
+          <h2 class="font-weight-bold">
+            Coronavirus Kills 'One of Biggest Criminals in History of Europe'
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomWorld/police-brutality-australia.webp"
+            class="bottom-articles-lg-img"
+            alt="Joe Biden"
+          />
+          <h2 class="font-weight-bold pt-2">
+            Man Placed in Coma After Police Officer Stomped on His Head in Viral
+            Video
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomWorld/china-americans-travel-advisory-detention.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                State Department Warns Americans Against Traveling to Hong Kong
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomWorld/iranian-flag-bushehr-nuclear-plant.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Iran Can Now Enrich Stable Isotopes, Country's Atomic Agency
+                Claims
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomWorld/qatar-palestinian-flag-gaza.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                As Neighbors Deal with Israel, Qatar 'Remains Committed' to Arab
+                Peace Plan
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 p-2">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">U.S.</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/US/lebron-james-black-lives-matter.webp"
+            class="bottom-articles-lg-img"
+            alt="Lebron"
+          />
+          <h2 class="font-weight-bold">
+            LA Sheriff Challenges LeBron James to Double Reward for Compton
+            Suspect
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/US/joe-biden.webp"
+            class="bottom-articles-lg-img"
+            alt="Joe Biden"
+          />
+          <h2 class="font-weight-bold pt-2">
+            In Historic First, Scientific American Magazine Endorses Joe Biden
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <img
+              class="mr-3 bottom-articles-sm-img float-left"
+              src="./img/US/meghan-markle-prince-harry-carriage-procession.webp"
+              alt="Single Storie IMG"
+            />
+            <h4 class="font-weight-bold more-stories-h5">
+              Meghan Markle and Prince Harry Photographer on 'Joys' of Royal
+              Wedding
+            </h4>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/US/cuties.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Anti-Porn Group Says 'Cuties' Could Be Used By Predators to
+                Groom Children
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/US/sasha-banks-appears-mandalorian.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                No, That's Not Rosario Dawson in the 'The Mandalorian' Season 2
+                Trailer
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 p-2">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">Business</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomBusiness/pennsylvania-mask-restrictions-lifted-judge.webp"
+            class="bottom-articles-lg-img"
+            alt="Lebron"
+          />
+          <h2 class="font-weight-bold">
+            Judge Rules Pennsylvania's 'New Normal' COVID Restrictions
+            Unconstitutional
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomBusiness/tiktok-sale.webp"
+            class="bottom-articles-lg-img"
+            alt="Joe Biden"
+          />
+          <h2 class="font-weight-bold pt-2">
+            TikTok Chooses Oracle, a Rare Trump Ally in Silicon Valley, to Sell
+            Assets
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomBusiness/swan-dive-rochester-protests-destroyed.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Rochester Eatery Offered BLM Protesters Water Hours Before Being
+                Vandalized
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomBusiness/dunkin-donuts-santa-monica-california-2015.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Are Starbucks, Dunkin' Donuts Open on Labor Day? See Coffee Shop
+                Hours
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomBusiness/tiktok-logo-phone.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Officials Keep U.S.-China Trade Deal Alive Despite 'Tantrum
+                Diplomacy'
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 p-2">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">Tech & Science</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomTech/david-legates.webp"
+            class="bottom-articles-lg-img"
+            alt="Lebron"
+          />
+          <h2 class="font-weight-bold">
+            Climate Change Denier Hails NOAA Hiring Climate Change Denier
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomTech/lg-wing-smartphone.webp"
+            class="bottom-articles-lg-img"
+            alt="Joe Biden"
+          />
+          <h2 class="font-weight-bold pt-2">
+            LG Wing Smartphone's Swiveling Screen Reveals a Tiny Hidden Surprise
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomTech/great-white-shark.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                13-Foot Great White Tagged at Nova Scotia 'Hotspot' As Hundreds
+                Gather
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomTech/trump-tweet-biden-pedophilia-carter.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Trump Shares Post Accusing Joe Biden of Being a Pedophile
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomTech/australia-scorpion.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Scorpions Taking Over Parts of Australia With 600 Burrows Per
+                Hectare
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 p-2">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">Culture</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomCulture/agatha-christie.webp"
+            class="bottom-articles-lg-img"
+            alt="Lebron"
+          />
+          <h2 class="font-weight-bold">
+            Celebrate Agatha Christie's Birthday with the Tale of Her Own
+            Disappearance
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomCulture/meghan-mccain.webp"
+            class="bottom-articles-lg-img"
+            alt="Meghan"
+          />
+          <h2 class="font-weight-bold pt-2">
+            Meghan McCain Jokes She's Certain Carole Baskin Killed Her Husband
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomCulture/meghan-markle-prince-harry-carriage-procession.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Meghan Markle and Prince Harry Photographer on 'Joys' of Royal
+                Wedding
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomCulture/cuties.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Anti-Porn Group Says 'Cuties' Could Be Used By Predators to
+                Groom Children
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomCulture/sasha-banks-appears-mandalorian.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                No, That's Not Rosario Dawson in the 'The Mandalorian' Season 2
+                Trailer
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 px-md-5 p-2 border-bottom">
+      <!-- Row just for the title -->
+      <div class="row border-top pt-3">
+        <div class="col-12">
+          <h2 class="color-red font-weight-bold">Sports</h2>
+        </div>
+      </div>
+      <!-- Row for the content -->
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomSports/stephen-gostkowski-tennessee-titans.webp"
+            class="bottom-articles-lg-img"
+            alt="Lebron"
+          />
+          <h2 class="font-weight-bold">
+            Stephen Gostkowski Equals Unwelcome NFL Record in Titans Debut
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <img
+            src="./img/BottomSports/wwe-monday-night-raw-mcintyre-orton-lee.webp"
+            class="bottom-articles-lg-img"
+            alt="Joe Biden"
+          />
+          <h2 class="font-weight-bold pt-2">
+            WWE 'Monday Night RAW' Results: Keith Lee and Drew McIntyre Square
+            Off
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomSports/tennessee-titans-denver-broncos.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Monday Night Football: Tennessee Titans @ Denver Broncos Preview
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomSports/ben-roethlisberger-pittsburgh-steelers.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                Monday Night Football: Pittsburgh Steelers @ New York Giants
+                Preview
+              </h4>
+            </div>
+          </div>
+
+          <hr class="py-0 my-2" />
+
+          <div
+            class="single-storie col-12 m-0 p-0 clearfix d-flex justify-content-evenly"
+          >
+            <div>
+              <img
+                class="mr-3 bottom-articles-sm-img float-left"
+                src="./img/BottomSports/oklahoma-college-football.webp"
+                alt="Single Storie IMG"
+              />
+            </div>
+            <div>
+              <h4 class="font-weight-bold more-stories-h5">
+                College Football: Latest AP Rankings, Week 3 Games Schedule
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM SUBSCRIBE AND NEWSLETTER SECTION -->
+
+    <section class="container-fluid px-3 px-md-5 pt-4">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <p class="color-red font-weight-bold m-0">SUBSCRIBE</p>
+
+          <div
+            class="container bg-lightgray w-100 px-4 py-5 mt-2 rounded position-relative clearfix"
+          >
+            <div class="row">
+              <div class="col-12 col-lg-12 text-center text-lg-left">
+                <img
+                  src="./img/magazines.png"
+                  class="d-none d-md-block float-left mr-4"
+                  alt="Newsweek magazines"
+                />
+                <img
+                  src="./img/magazines.png"
+                  class="d-md-none magazine-pic-mobile"
+                  alt="Newsweek magazines"
+                />
+                <h2 class="font-weight-bold mt-5 text-center text-lg-left">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h2>
+                <p class="summary text-center text-lg-left">
+                  All Access + Weekly Delivery.<br />
+                  Choose A Membership That's Perfect for You!
+                </p>
+                <button
+                  class="btn bg-red text-white font-weight-bold text-center mb-2"
+                >
+                  SUBSCRIBE >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row">
+            <div class="col-12">
+              <p class="color-red font-weight-bold m-0">NEWSLETTER</p>
+              <div class="container-fluid">
+                <div class="row border mt-2">
+                  <div class="d-none d-md-block col-lg-6 col-md-3 pl-0">
+                    <img
+                      class="image-last p-0"
+                      src="./img/starting5-homepage.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-xs-12 col-lg-6 col-md-9 mt-5">
+                    <h2 class="font-weight-bold">The Starting 5</h2>
+                    <p class="summary">
+                      See why nearly a quarter of a million subscribers begin
+                      their day with the Starting 5.
+                    </p>
+                    <input
+                      class="w-100 border my-2 px-2 mt-3 mb-2"
+                      type="text"
+                      placeholder="Email address"
+                    />
+                    <button
+                      type="button"
+                      class="btn bg-red btn-block text-white font-weight-bold text-center mb-2"
+                    >
+                      FREE SIGN UP >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid px-3 px-md-5 py-4 mt-5 border-top">
+      <div class="footer-top pb-3 border-bottom">
+        <div class="image-footer d-inline-block">
+          <svg
+            version="1.1"
+            class="footer-logo"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 395.6 60"
+            style="enable-background: new 0 0 395.6 60"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2    L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="d-md-none copywrite pt-2">© 2020 NEWSWEEK</div>
+        <div class="d-none copywrite d-md-inline-block align-bottom">
+          © 2020 NEWSWEEK
+        </div>
+        <div class="d-md-none footer-social-icons">
+          <ul class="pl-0 pt-2">
+            <li class="d-inline-block icon-facebook mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-twitter mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-instagram mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-linkedin mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block footer-social-icons float-right">
+          <ul>
+            <li class="d-inline-block icon-facebook mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-twitter mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-instagram mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
+                />
+              </svg>
+            </li>
+            <li class="d-inline-block icon-linkedin mx-1">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom pt-2">
+        <p class="footer-links">
+          <span class="font-weight-bold text-dark pr-2">Editions: </span>
+          <a class="footer-nav-a text-decoration-none" href="#">U.S. Edition</a>
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#">日本</a> |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Pakistan</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#">Polska</a>
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#">Romania</a>
+          <br />
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >About Us</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Corrections</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Contact Us</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Editorial Guidelines</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Advertise</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Copyright</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Terms & Conditions</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Privacy Policy</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Cookie Policy</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Terms of Sale</a
+          >
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#">Archive</a>
+          |
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Announcements</a
+          >
+          <br />
+          <a class="footer-nav-a text-decoration-none px-1" href="#"
+            >Consent preference</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
